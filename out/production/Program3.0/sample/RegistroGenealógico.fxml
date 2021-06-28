@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RegistroGenController">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane fx:id="fullscreen" prefHeight="491.0" prefWidth="1223.0" styleClass="bodybg" stylesheets="@stylesheettest.css">
+         <children>
+            <ComboBox fx:id="dropanimals" layoutX="1050.0" layoutY="247.0" onAction="#loadonsheet" prefWidth="150.0" />
+            <GridPane fx:id="PanePrincipal" layoutX="28.0" layoutY="22.0" prefHeight="450.0" prefWidth="609.0" style="-fx-background-color: #059c00;">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <TextField id="numero" fx:id="Numero" GridPane.columnIndex="1" />
+                  <TextField id="nombre" fx:id="Nombre" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <TextField id="fechanac" fx:id="Fechanac" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <TextField id="pesonac" fx:id="Pesonac" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <TextField id="raza" fx:id="raza" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <TextField id="color" fx:id="color" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <TextField id="prop" fx:id="proposito" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <TextField id="nompadre" fx:id="nompadre" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                  <TextField id="nomadre" fx:id="nommadre" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                  <TextField id="fecha50" fx:id="fecha50" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                  <TextField id="peso50" fx:id="peso50" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                  <TextField id="fechpred" fx:id="fechapred" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+                  <TextField id="pesopred" fx:id="pesopred" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+                  <TextField id="fechdespar" fx:id="fechadesp" GridPane.columnIndex="1" GridPane.rowIndex="13" />
+                  <TextField id="fechvac" fx:id="fechavac" GridPane.columnIndex="1" GridPane.rowIndex="14" />
+                  <TextField id="Fechdest" fx:id="fechadest" GridPane.columnIndex="3">
+                     <GridPane.margin>
+                        <Insets right="10.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField id="pesodest" fx:id="pesodest" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets right="10.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField id="fecha330" fx:id="fecha330" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets right="10.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField id="peso330" fx:id="peso330" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets right="10.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField id="fechacast" fx:id="fechacast" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets right="10.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField id="fechinitmonta" fx:id="fechinitmont" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets right="10.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField id="tempmonta" fx:id="tempmont" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets right="10.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField id="fecharecsem" fx:id="fecharecsem" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets right="10.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField id="numlote" fx:id="numlotemuestra" GridPane.columnIndex="3" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets right="10.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField id="porcentaje" fx:id="prenes" GridPane.columnIndex="3" GridPane.rowIndex="9">
+                     <GridPane.margin>
+                        <Insets right="10.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField id="fechavent" fx:id="fechavent" GridPane.columnIndex="3" GridPane.rowIndex="10">
+                     <GridPane.margin>
+                        <Insets right="10.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField id="preciovent" fx:id="preciovent" GridPane.columnIndex="3" GridPane.rowIndex="11">
+                     <GridPane.margin>
+                        <Insets right="10.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField id="obs" fx:id="obs" GridPane.columnIndex="3" GridPane.rowIndex="12">
+                     <GridPane.margin>
+                        <Insets right="10.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField id="fechasacrif" fx:id="fechasacrif" GridPane.columnIndex="3" GridPane.rowIndex="13">
+                     <GridPane.margin>
+                        <Insets right="10.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField id="pesosacrif" fx:id="pesosacrif" GridPane.columnIndex="3" GridPane.rowIndex="14">
+                     <GridPane.margin>
+                        <Insets right="10.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <Label text="Numero" textFill="WHITE">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Nombre" textFill="WHITE" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Fecha de Nacimiento" textFill="WHITE" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Peso al Nacer" textFill="WHITE" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Raza" textFill="WHITE" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Color" textFill="WHITE" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Propósito" textFill="WHITE" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Nom/Num. del Padre" textFill="WHITE" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Nom/Num. de la Madre" textFill="WHITE" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Fecha a los 50 días" textFill="WHITE" GridPane.rowIndex="9">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Peso a los 50 días" textFill="WHITE" GridPane.rowIndex="10">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Fecha de Ingresio al Predio" textFill="WHITE" GridPane.rowIndex="11">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Peso de Ingreso al Predio" textFill="WHITE" GridPane.rowIndex="12">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Fecha Desparasitación" textFill="WHITE" GridPane.rowIndex="13">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Fecha Vacunación" textFill="WHITE" GridPane.rowIndex="14">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Fehca al Destete" textFill="WHITE" GridPane.columnIndex="2">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Peso al Destete" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Fecha 330 días" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Peso 330 días" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Fecha de Castración" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Fech. inicio de Monta" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Temporada de Monta" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Fecha recolección de Semen" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                  <Label text="Num. Lote de Muestra" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Porcentaje de Preñez" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="9">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Fecha de Venta" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="10">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Precio de Venta" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="11">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Observaciones" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="12">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Fecha al Sacrificio" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="13">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Peso al Sacrificio" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="14">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+               </children>
+            </GridPane>
+            <GridPane fx:id="pan2" layoutX="747.0" layoutY="14.0" prefHeight="180.0" prefWidth="179.0" style="-fx-background-color: #059c00;">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label text="Fecha primer parto" textFill="WHITE">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label prefHeight="17.0" prefWidth="170.0" text="Dias abiertos al 2do parto" textFill="WHITE" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Hab. Materna" textFill="WHITE" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <TextField id="fechprimpar" fx:id="fechaprimpar" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField id="diashab2" fx:id="diashab2par" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField id="habmat" fx:id="habmat" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <Label id="tiposerv" fx:id="tiposervicio" text="Tipo de servicio" textFill="WHITE" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <TextField id="tiposerv" fx:id="tiposerv" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </GridPane.margin>
+                  </TextField>
+               </children>
+            </GridPane>
+            <GridPane layoutX="989.0" layoutY="14.0" prefHeight="180.0" prefWidth="179.0" style="-fx-background-color: #059c00;">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label text="Agropecuaria" textFill="WHITE">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Municipio" textFill="WHITE" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Estado" textFill="WHITE" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <TextField fx:id="agropecuaria" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField fx:id="municipio" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField fx:id="estado" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </GridPane.margin>
+                  </TextField>
+               </children>
+            </GridPane>
+            <GridPane layoutX="772.0" layoutY="453.0" prefHeight="30.0" prefWidth="437.0">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="74.0" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="74.0" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="74.0" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="74.0" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="74.0" minWidth="10.0" prefWidth="66.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="72.0" minWidth="10.0" prefWidth="69.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button mnemonicParsing="false" onAction="#AnteriorHoja" text="Anterior" GridPane.columnIndex="4" />
+                  <Button fx:id="Siguiente" mnemonicParsing="false" onAction="#SiguienteHoja" text="Siguiente" GridPane.columnIndex="5" />
+                  <Button fx:id="generar" mnemonicParsing="false" onAction="#generate" text="Generar" GridPane.columnIndex="3" />
+                  <Button fx:id="borrar" mnemonicParsing="false" onAction="#delete" text="Borrar" GridPane.columnIndex="2" />
+                  <Button fx:id="editar" mnemonicParsing="false" onAction="#editar" text="Editar" GridPane.columnIndex="1">
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="Guardar" mnemonicParsing="false" onAction="#guardar" prefWidth="253.0" text="Guardar" />
+               </children>
+            </GridPane>
+            <GridPane fx:id="selectgp" layoutX="747.0" layoutY="247.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <RadioButton fx:id="borrego" mnemonicParsing="false" onAction="#radbuttoncontroller" text="Borrego" />
+                  <RadioButton fx:id="corderito" mnemonicParsing="false" onAction="#radbuttoncontroller" text="Corderito" GridPane.rowIndex="1" />
+                  <RadioButton fx:id="cordero" mnemonicParsing="false" onAction="#radbuttoncontroller" text="Cordero" GridPane.rowIndex="2" />
+                  <RadioButton fx:id="ovejo" mnemonicParsing="false" onAction="#radbuttoncontroller" text="Ovejo" GridPane.rowIndex="3" />
+                  <RadioButton fx:id="borrega" mnemonicParsing="false" onAction="#radbuttoncontroller" text="Borrega" GridPane.columnIndex="1" />
+                  <RadioButton fx:id="corderita" mnemonicParsing="false" onAction="#radbuttoncontroller" text="Corderita" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <RadioButton fx:id="cordera" mnemonicParsing="false" onAction="#radbuttoncontroller" text="Cordera" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <RadioButton fx:id="oveja" mnemonicParsing="false" onAction="#radbuttoncontroller" text="Oveja" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+               </children>
+            </GridPane>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

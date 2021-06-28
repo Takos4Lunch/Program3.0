@@ -1,0 +1,7 @@
+ .bodybg{
+ -fx-background-image: url('goat.jpg');
+}
+.bodybg2{
+ -fx-background-image: url('JMNGR.jpg');
+ -fx-background-size: 100% 100%;
+}
